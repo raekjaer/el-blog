@@ -30,11 +30,15 @@
   background-image:         linear-gradient(to bottom, #dddddd, #ffffff);
 }
 .site-header .home-link {
-  color: #c41f43
+  color: #c4163f;
 }
+
 
 .site-title {
   background: url(./images/logo-enhedslisten.png) no-repeat 100% 58px transparent;
+}
+.site-header .site-title:hover {
+  text-decoration: none;
 }
 
 /**
@@ -42,10 +46,125 @@
  * ----------------------------------------------------------------------------
  */
 
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+  background-color: #c4163f;
+}
+
 /* Navbar */
 .navbar {
-  background-color: #a2d9d5;
+  /*background-color: #dad8d5;*/
+  background-color: transparent;
+  border-top: 2px solid #a2d9d5;
+  border-bottom: 2px solid #a2d9d5;
 }
+
+/**
+ * 5.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * 5.1 Entry Header
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-title a:hover {
+  color: #141412;
+}
+
+/**
+ * 5.2 Entry Meta
+ * ----------------------------------------------------------------------------
+ */
+
+
+.entry-meta a {
+  color: #9e9a90;
+}
+
+.entry-meta a:hover {
+  color: #9e9a90;
+}
+
+/**
+ * 5.3 Entry Content
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-content a,
+.comment-content a {
+  color: #c4163f;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+  color: #444444;
+}
+
+/**
+ * 5.7 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.navigation a {
+  color: #c4163f;
+}
+
+.navigation a:hover {
+  color: #444444;
+}
+
+/**
+ * 5.10 Search Results/No posts
+ * ----------------------------------------------------------------------------
+ */
+
+.page-header {
+  background-color: transparent;
+}
+
+
+/**
+ * 6.1 Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+.widget {
+  background-color: rgba(222, 219, 214, 0.7);
+}
+
+.widget a {
+  color: #c4163f;
+}
+
+.widget a:hover {
+  color: #444444;
+}
+
+
+/**
+ * 7.0 Footer
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer {
+  background-color: #e8e6e2;
+}
+
+.site-footer a {
+  color: #686758;
+}
+
+.site-footer .sidebar-container {
+  background-color: #444444;
+}
+
+.site-footer .widget a {
+  color: #9e9a90;
+}
+
+
 
 /**
  * 8.0 Media Queries
