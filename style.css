@@ -1,0 +1,60 @@
+/*
+ Theme Name:     EL blog
+ Theme URI:      https://github.com/raekjaer/el-blog/
+ Description:    Twenty Thirteen Child Theme for Enhedslisten Wordpress blogs.
+ Author:         raekjaer
+ Author URI:     https://github.com/raekjaer
+ Template:       twentythirteen
+ Version:        1.0.0
+*/
+
+/* =Imports styles from the parent theme
+-------------------------------------------------------------- */
+@import url('../twentythirteen/style.css');
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/**
+ * 4.1 Site Header
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header {
+  background-color: #dddddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #dddddd, #ffffff);
+  background-image:    -moz-linear-gradient(top, #dddddd, #ffffff);
+  background-image:      -o-linear-gradient(top, #dddddd, #ffffff);
+  background-image:         linear-gradient(to bottom, #dddddd, #ffffff);
+}
+.site-header .home-link {
+  color: #c41f43
+}
+
+.site-title {
+  background: url(./images/logo-enhedslisten.png) no-repeat 100% 58px transparent;
+}
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+/* Navbar */
+.navbar {
+  background-color: #a2d9d5;
+}
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+@media (max-width: 643px) {
+  .site-title {
+    background-position: 100% 10px;
+  }
+}
+
