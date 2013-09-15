@@ -17,6 +17,17 @@
 -------------------------------------------------------------- */
 
 /**
+ * 2.0 Repeatable Patterns
+ * ----------------------------------------------------------------------------
+ */
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+  font-size: 14px;
+}
+
+/**
  * 4.1 Site Header
  * ----------------------------------------------------------------------------
  */
@@ -49,6 +60,15 @@
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
   background-color: #c4163f;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+  color: #ffffff;
+  background-color: #c4163f;
+  font-style: normal;
 }
 
 /* Navbar */
@@ -101,6 +121,7 @@
 .comment-content a:hover {
   color: #444444;
 }
+
 
 /**
  * 5.7 Post/Paging Navigation
@@ -174,6 +195,10 @@
 @media (max-width: 643px) {
   .site-title {
     background-position: 100% 10px;
+  }
+  li.share-print,
+  li.share-email {
+    display: none;
   }
 }
 
