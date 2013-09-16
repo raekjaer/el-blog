@@ -41,7 +41,7 @@ function add_googleanalytics() {
  */
 
 function twentythirteen_child_custom_head() {
-  echo '<meta name="og:image" content="http://joernsdagbog.dk/wp-content/uploads/2013/09/Joern_s.jpg">';
+  echo '<meta property="og:image" content="http://joernsdagbog.dk/wp-content/uploads/2013/09/Joern_s.jpg">';
 }
 add_action('wp_head', 'twentythirteen_child_custom_head');
 
