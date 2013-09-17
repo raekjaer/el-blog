@@ -35,14 +35,4 @@ function add_googleanalytics() {
   }
 }
 
-/*
- * Add og:image meta tag to head
- * Needed for Publicize if there is no gravatar image
- */
-
-function twentythirteen_child_custom_head() {
-  echo '<meta property="og:image" content="http://joernsdagbog.dk/wp-content/uploads/2013/09/Joern_s.jpg">';
-}
-add_action('wp_head', 'twentythirteen_child_custom_head');
-
 ?>
